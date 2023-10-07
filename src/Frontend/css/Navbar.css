@@ -1,0 +1,30 @@
+.futura{
+    font-family: futura;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+.navbar-logo{
+    /* TODO: Implement logo */
+    margin-left: 0rem;
+}
+
+.navbar-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.navbar-links li{
+    margin-right: 20px;
+}
+
+.navbar-links li:last-child{
+    margin-right: 10px;
+}
+
+
