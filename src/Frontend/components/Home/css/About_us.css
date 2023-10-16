@@ -1,0 +1,56 @@
+.aboutus-main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.aboutus-title{
+  margin-top: 1.5rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.aboutus-img-container{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-img-container img{
+    border-radius: 50%;
+    border: 5px solid white;
+    max-width: 20rem;
+    height: auto;
+}
+
+.aboutus-people{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.aboutus-info{
+    color: whitesmoke;
+    margin-top: 1.5rem;
+    
+}
+
+.aboutus-info h6 {
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutus-info span{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+

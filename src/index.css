@@ -9,9 +9,20 @@ body {
 
 ::selection{
   background-color: white;
-  color:black
+  color:black;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title{
+  margin-top: 1.5rem;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }

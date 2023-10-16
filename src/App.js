@@ -3,13 +3,13 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
-import Cover from './Frontend/components/Home/Cover';
+import Home from './Frontend/components/Home/Home';
 
 function App() {
   return (
     <Router>
     <Routes>
-      <Route exact path='/' element={<Cover/>} />
+      <Route exact path='/' element={<Home/>} />
     </Routes>
     </Router>
   );

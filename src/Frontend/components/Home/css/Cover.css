@@ -4,20 +4,15 @@
 }
 
 .cover-content-container{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
     width:100%;
-    height: 100vh;
-    background-image: url('/src/Frontend/images/bg/cover_bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    
 }
 
 .cover-title{
-    margin-top: 1.5rem;
+    margin-top: calc(1.5rem + 10vh);
     font-size: 5rem;
     font-weight: bolder;
     color: white;
