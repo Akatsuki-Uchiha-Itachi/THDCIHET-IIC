@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../../images/icons/logo.png'
 import '../css/Cover.css';
 
 
@@ -7,6 +8,9 @@ const Cover = () => {
   return (
     <div className="cover-container">
       <div className="cover-content-container">
+      <div className="logo-container">
+          <img src={logo} alt="img" />
+        </div>
         <div className="cover-title">THDC-IHET Innovation Council</div>
         <div className="cover-links">
           <div className="cover-links-group">

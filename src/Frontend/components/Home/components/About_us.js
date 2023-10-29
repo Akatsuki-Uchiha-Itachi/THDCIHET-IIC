@@ -2,7 +2,13 @@ import React from 'react'
 import president from '../../../images/people/president.jpg'
 import noimg from '../../../images/people/nopic.png'
 import '../css/About_us.css'
-import nikhil from '../../../images/people/nikhil.jpg'
+import vivek from '../../../images/people/Vivek.jpg'
+import mandeep from '../../../images/people/mandeep.jpeg'
+
+import vice from '../../../images/people/vice.jpeg'
+
+import himanshu from '../../../images/people/himanshuNautiyal.jpeg'
+import mahesh from '../../../images/people/feesbarih.jpeg'
 
 const About_us = () => {
     return (
@@ -27,7 +33,7 @@ const About_us = () => {
             </div>
             <div className="aboutus-people">
                 <div className="aboutus-img-container">
-                    <img src={noimg} alt="" className="aboutus-img" />
+                    <img src={vice} alt="" className="aboutus-img" />
                 </div>
                 <div className="aboutus-info">
                     <h6>
@@ -53,11 +59,11 @@ const About_us = () => {
             </div>
             <div className="aboutus-people">
                 <div className="aboutus-img-container">
-                    <img src={nikhil} alt="" className="aboutus-img" />
+                    <img src={vivek} alt="" className="aboutus-img" />
                 </div>
                 <div className="aboutus-info">
                     <h6>
-                        Nikhil Gahtori
+                    Mr. Vivek Kumar
                     </h6>
                     <span className="aboutus-info-position">
                         Social Media Coordinator
@@ -66,16 +72,44 @@ const About_us = () => {
             </div>
             <div className="aboutus-people">
                 <div className="aboutus-img-container">
-                    <img src={noimg} alt="" className="aboutus-img" />
+                    <img src={mandeep} alt="" className="aboutus-img" />
                 </div>
                 <div className="aboutus-info">
                     <h6>
-                        Paras Khanduri
+                    Mr. Mandeep Guleria
                     </h6>
                     <span className="aboutus-info-position">
-                        Startup Coordinator
+                    Internship Coordinator
                     </span>
                 </div>
+            </div>
+            <div className="aboutus-people">
+                <div className="aboutus-img-container">
+                    <img src={himanshu} alt="" className="aboutus-img" />
+                </div>
+                <div className="aboutus-info">
+                    <h6>
+                    Mr. Himanshu Nautiyal
+                    </h6>
+                    <span className="aboutus-info-position">
+                        Innovation Coordinator
+                    </span>
+                </div>
+                
+            </div>
+            <div className="aboutus-people">
+                <div className="aboutus-img-container">
+                    <img src={mahesh} alt="" className="aboutus-img" />
+                </div>
+                <div className="aboutus-info">
+                    <h6>
+                    Mr. Mahesh Aghwariya
+                    </h6>
+                    <span className="aboutus-info-position">
+                        Start up Coordinator
+                    </span>
+                </div>
+                
             </div>
             <div className="aboutus-people">
                 <div className="aboutus-img-container">
@@ -83,13 +117,15 @@ const About_us = () => {
                 </div>
                 <div className="aboutus-info">
                     <h6>
-                        Swapnil Upadhay
+                    Dr. Sanjay Rawat
                     </h6>
                     <span className="aboutus-info-position">
-                        Innovation Coordinator
+                        IPR Coordinator
                     </span>
                 </div>
+                
             </div>
+
         </div>
         </>
     )

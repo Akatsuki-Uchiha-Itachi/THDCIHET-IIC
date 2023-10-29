@@ -1,13 +1,12 @@
 .aboutus-main{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .aboutus-title{
   margin-top: 1.5rem;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bolder;
   color: white;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -17,7 +16,7 @@
 }
 
 .aboutus-img-container{
-    margin-top: 4rem;
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,13 +25,15 @@
 .aboutus-img-container img{
     border-radius: 50%;
     border: 5px solid white;
-    max-width: 20rem;
+    width: 15rem;
     height: auto;
 }
 
 .aboutus-people{
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin: 0 5px;
+    flex: 1 0 calc(25% - 10px);
+    text-align: center;
+    margin-top: 20px;
 }
 
 .aboutus-info{
@@ -43,7 +44,7 @@
 
 .aboutus-info h6 {
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
 }
